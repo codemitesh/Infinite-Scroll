@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+}
+
+#infinite-list {
+  /* We need to limit the height and show a scrollbar */
+  width: 300px;
+  height: 400px;
+  overflow: auto;
+
+  /* Optional, only to check that it works with margin/padding */
+  margin: 30px;
+  padding: 20px;
+  border: 10px solid red;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #ccc;
+}
+
+/* Optional eye candy below: */
+li {
+  font-size: 1.5em;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+li:hover {
+  background: #ccc;
+}
+
+h2 {
+  color: white;
+  margin: 100px 100px 0px 500px;
+  text-decoration: underline;
+  font-style: italic;
+}
